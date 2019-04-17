@@ -3,8 +3,8 @@
 //使用方法
 1.引入头文件 #import "BrokenView.h"
 2.
-- (void)drawLineView
-{
+>- (void)drawLineView
+>{
     NSArray *xArr = @[@"小明",@"小红",@"小刚", @"小黑",@"小王", @"默默", @"小刚", @"小黑",@"小王", @"默默"];
     NSArray *yArr = @[@"200", @"300", @"100", @"160", @"180", @"60", @"70", @"160", @"180", @"60"];
     if (xArr.count == yArr.count) {
