@@ -1,10 +1,14 @@
 # 使用贝赛尔曲线画折线图、曲线图、柱状图、饼图
 
 //使用方法
-1.引入头文件 #import "BrokenView.h"
-2.
->- (void)drawLineView
->{
+1.引入头文件 
+```
+#import "BrokenView.h"
+```
+2.调用方法
+```
+- (void)drawLineView
+{
     NSArray *xArr = @[@"小明",@"小红",@"小刚", @"小黑",@"小王", @"默默", @"小刚", @"小黑",@"小王", @"默默"];
     NSArray *yArr = @[@"200", @"300", @"100", @"160", @"180", @"60", @"70", @"160", @"180", @"60"];
     if (xArr.count == yArr.count) {
@@ -13,6 +17,7 @@
         [brokenView drawLineWithLineType:PieChartENUM];
     }
 }
+```
 
 
 注：可以根据自己的实际业务更改配置，详见 BrokenView.h 文件
