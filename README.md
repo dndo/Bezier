@@ -23,7 +23,7 @@
 注：可以根据自己的实际业务更改配置，详见 
 ```
 BrokenView.h文件
-```
+
 //画布背景色<br>
 #define K_CanvasBackgroundColor  [UIColor lightGrayColor];
 
@@ -86,3 +86,4 @@ typedef NS_ENUM(NSInteger, LineType) {
  @param lineType  图形类型(折线/曲线/柱状/饼)
  */
 -(void)drawLineWithLineType:(LineType) lineType;
+```
