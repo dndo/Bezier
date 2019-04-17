@@ -20,7 +20,10 @@
 ```
 
 
-注：可以根据自己的实际业务更改配置，详见 BrokenView.h 文件
+注：可以根据自己的实际业务更改配置，详见 
+```
+BrokenView.h文件
+```
 //画布背景色<br>
 #define K_CanvasBackgroundColor  [UIColor lightGrayColor];
 
