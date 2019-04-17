@@ -1,5 +1,7 @@
 # 使用贝赛尔曲线画折线图、曲线图、柱状图、饼图
 
+折线图效果
+![imge](https://github.com/dndo/Bezier/blob/master/BezierT/pic1.png)
 //使用方法
 1.引入头文件 
 ```
