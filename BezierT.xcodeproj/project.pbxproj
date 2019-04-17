@@ -17,6 +17,7 @@
 		C401381B2260345E00EFA504 /* BezierTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C401381A2260345E00EFA504 /* BezierTTests.m */; };
 		C40138262260345E00EFA504 /* BezierTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40138252260345E00EFA504 /* BezierTUITests.m */; };
 		C40138352260352900EFA504 /* BrokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = C40138342260352900EFA504 /* BrokenView.m */; };
+		C41917F82267219A00B12E76 /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = C41917F72267219A00B12E76 /* pic1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C40138272260345E00EFA504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C40138332260352900EFA504 /* BrokenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrokenView.h; sourceTree = "<group>"; };
 		C40138342260352900EFA504 /* BrokenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrokenView.m; sourceTree = "<group>"; };
+		C41917F72267219A00B12E76 /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		C40137FD2260345D00EFA504 /* BezierT */ = {
 			isa = PBXGroup;
 			children = (
+				C41917F72267219A00B12E76 /* pic1.png */,
 				C40137FE2260345D00EFA504 /* AppDelegate.h */,
 				C40137FF2260345D00EFA504 /* AppDelegate.m */,
 				C40138012260345D00EFA504 /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41917F82267219A00B12E76 /* pic1.png in Resources */,
 				C401380E2260345E00EFA504 /* LaunchScreen.storyboard in Resources */,
 				C401380B2260345E00EFA504 /* Assets.xcassets in Resources */,
 				C40138062260345D00EFA504 /* Main.storyboard in Resources */,
